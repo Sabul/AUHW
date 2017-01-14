@@ -1,0 +1,42 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 660px)
+  and (-webkit-min-device-pixel-ratio: 0)  {
+.gallery li{
+	width: 100%;
+
+}
+
+}
+
+@media only screen and (min-device-width: 660px) and (max-device-width: 1367px)  {
+	
+	.gallery li{
+		width: 45%;
+		display: inline-block;
+	}
+}
+@media  screen and (min-width: 1367px)  {
+	.gallery li{
+		width: 28%;
+			display: inline-block;
+	}
+}
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 660px)
+    {
+.gallery li{
+	width: 100%;
+
+}
+
+}
+
+@media only screen and (min-width: 660px) and (max-width: 1367px)  {
+	
+	.gallery li{
+		width: 45%;
+		display: inline-block;
+	}
+}
