@@ -1,15 +1,4 @@
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 660px)
-  and (-webkit-min-device-pixel-ratio: 0)  {
-.gallery li{
-	width: 100%;
-
-}
-
-}
-
-@media only screen and (min-device-width: 660px) and (max-device-width: 1367px)  {
+@media only screen and (min-device-width: 661px) and (max-device-width: 1367px)  {
 	
 	.gallery li{
 		width: 45%;
@@ -39,4 +28,14 @@
 		width: 45%;
 		display: inline-block;
 	}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+    {
+.gallery li{
+	width: 100%;
+	display: inline-block;
+
 }
